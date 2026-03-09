@@ -1,0 +1,56 @@
+.main-container{
+    position: relative;
+    height: 500px;
+    width: 350px;
+    background-color: rgb(13, 154, 144);  
+}
+.box-photo{
+    position: absolute; 
+    top: 20px;            
+    left: 25px;
+    height: 400px;
+    width: 300px; 
+}
+.immagine{  
+    height: 100%;
+    width: 100%;
+}
+.box-cuore{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 10px;            
+    left: 260px;   
+
+}
+.Cambio20{
+    position: absolute;
+    bottom:5px;           
+    left: 1px;
+}
+.Promo{
+    position: absolute;
+    bottom:5px;           
+    left: 85px;
+    color: white;
+    background-color: red;
+}
+.AirForce1{
+  position: absolute;          
+  left:  25px;       
+  bottom: 38px;  
+  color: white;    
+}
+.descrizione{
+  position: absolute;          
+  left:  25px;       
+  bottom: 18px;  
+  color: white;    
+}
+.Prezzo{
+  position: absolute;          
+  left:  25px;       
+  bottom: 0;  
+  color: white;    
+}

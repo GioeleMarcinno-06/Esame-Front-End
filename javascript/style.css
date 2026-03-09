@@ -1,0 +1,42 @@
+.users {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+    margin-top: 16px; /* spazio tra bottone e lista */
+}
+
+.user {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 12px;
+	flex: 1 1 240px;
+}
+.btn {
+  margin: 8px 8px 16px 0;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff385c;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.user {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 1 1 240px;
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
